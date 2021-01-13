@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY Panda-commerce site</title>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="panda-style.css">
 </head>
 <body>
  <header class="container">
@@ -34,9 +36,9 @@
           </div>
         </div>
       </nav>
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleSlidesOnly" class="carousel slide panda-slide mt-5 " data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item active p-3">
             <div class="row d-flex align-items-center">
                 <div class="col-md-7">
                     <h1>Mega LCD TV For Sports</h1>
@@ -102,16 +104,16 @@
 
      <section class="mt-5"> 
          <h3>Shoes</h3>
-        <div class="row row-cols-1 row-cols-md-3 g-4 ">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
-              <div class="card h-100 shadow">
+              <div class="card  panda-card h-100 shadow">
                 <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Supply 350</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <button class="btn btn-info">Buy Now</button>
+                 
                 </div>
-                <div class="card-footer">
+                <div class="card-footer panda-card--footer">
                     <div class="btn btn-warning">Bye Now>></div>
                 </div>
               </div>
@@ -123,7 +125,7 @@
                   <h5 class="card-title">Nike 360</h5>
                   <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                 </div>
-                <div class="card-footer">
+                <div class="card-footer panda-card--footer">
                     <div class="btn btn-warning">Bye Now>></div>
                 </div>
               </div>
@@ -135,7 +137,7 @@
                   <h5 class="card-title">Red Airmax</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.</p>
                 </div>
-                <div class="card-footer">
+                <div class="card-footer panda-card--footer">
                <div class="btn btn-warning">Bye Now>></div>
                 </div>
               </div>
@@ -147,7 +149,7 @@
         <h3>Backpack</h3>
        <div class="row row-cols-1 row-cols-md-3 g-4 ">
            <div class="col">
-             <div class="card h-100 shadow">
+             <div class="card panda-card h-100 shadow">
                <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
                <div class="card-body">
                  <h5 class="card-title">Red Laltu Bag</h5>
@@ -160,7 +162,7 @@
              </div>
            </div>
            <div class="col">
-             <div class="card h-100 shadow">
+             <div class="panda-card card h-100 shadow ">
                <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
                <div class="card-body">
                  <h5 class="card-title">Blue Niltu Bag</h5>
@@ -173,7 +175,7 @@
              </div>
            </div>
            <div class="col">
-             <div class="card h-100 shadow">
+             <div class="panda-card card h-100 shadow">
                <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
                <div class="card-body">
                  <h5 class="card-title">Black Kaltu Bag</h5>
@@ -187,9 +189,18 @@
            </div>
          </div>
     </section>
+    <section  class="d-flex justify-content-center align-items-center mt-5 bg-primary" style="height: 350px;" >
+      
+      <div >
+        <h2>LET'S STAY IN TOUCH</h2>
+        <h4>Get updates on sales, specials and more</h4>
+        <input type="text" placeholder="Enter Your Email">
+        <button class="btn btn-info">SUBMIT</button></div>
+    </section>
  </main>
-
-
+<footer class="text-center mt-5">
+  <small >©2021. Panda Commerce. All rights reserved. Sofia, Bulgaria</small>
+</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
